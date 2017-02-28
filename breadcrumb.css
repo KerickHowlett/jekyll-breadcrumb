@@ -1,0 +1,36 @@
+/**
+ * This SCSS file is for creating the overall look for the breadcrumb section of
+ * any given page throughout the entire Protfolio Site - Desktop & Tablet.
+ *
+ * @author Kerick Howlett
+ **/
+
+.breadcrumb {
+	background: #CCCCCC;
+	color: #555555;
+	display: inline-block;
+	line-height: 3em;
+	padding-left: 7%;
+	width: 100%;
+}
+
+.breadcrumb .slash {
+	font-size: 1.75em;
+	padding: 0 0.75em;
+}
+
+.breadcrumb span {
+	display: table-cell;
+	font-size: 1.1em;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+.breadcumb span a {
+	color: #555555;
+}
+
+.breadcumb span a:hover {
+	color: #FFFFFF;
+
+}
