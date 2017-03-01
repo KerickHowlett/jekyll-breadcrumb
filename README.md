@@ -21,7 +21,7 @@ The CSS file, **breadcrumb.css**, offers very minimal styling that is designed t
 1. Download this repo.
 2. Put the **breadcrumb.html** file within your **\_includes** folder, along with all your other partials.
 3. Put the **breadcrumb.js** and **breadcrumb.css** files into wherever you put such files within your project.
-4. Make sure that you reference the JavaScript and CSS files within your `<head>` tags, or at least make sure to compile them with either GULP or GRUNT.
+4. Make sure that you reference the JavaScript and CSS files within your `<head>` tags, or at least make sure to compile them with either GULP or GRUNT along with the rest of your CSS/JS library.
 5. Lastly, make sure you insert `{% include breadcrumb.html %}` in whatever layout file you wish to have breadcrumbs.
 
 ## Contributions
